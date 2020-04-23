@@ -52,15 +52,15 @@ const App = props => {//消除了this,这里相当于construct
     const onClickM = () => {
         setM(x => x + 1);//这里是函数写法，setTimeout时不会出错
     };
-    const onClickP = () => {
-        dispatch({type: 'add', number: 1})
-    }
-    const onClickP2 = () => {
-        dispatch({type: 'add', number: 2})
-    }
-    const onClickP3 = () => {
-        dispatch({type: 'multi', number: 2})
-    }
+    // const onClickP = () => {
+    //     dispatch({type: 'add', number: 1})
+    // }
+    // const onClickP2 = () => {
+    //     dispatch({type: 'add', number: 2})
+    // }
+    // const onClickP3 = () => {
+    //     dispatch({type: 'multi', number: 2})
+    // }
     const onSubmit = () => {
     }
     const onReset = () => {
